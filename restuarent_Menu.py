@@ -24,19 +24,8 @@ while True:
 print("Total Bill =", total)
 total = 0
 #----------------------------------------------------------------------------------------------------------------------------------
-balls = int(input("Enter number of balls: "))
-if(balls > 6):
-    print("You can only enter a maximum of 6 balls.")
-
-for i in range(1, balls + 1):
-    runs = int(input(f"Runs scored in {i} ball : "))
-    if(runs > 6):
-        print("You can only score a maximum of 6 runs in a ball.")
-        runs = int(input(f"Runs scored in {i} ball : "))
-    total = total + runs
-
-print("Total Score =", total)
 #----------------------------------------------------------------------------------------------------------------------------------
+
 username = "chandrakirandandapu18@gmail.com"
 password = "3101"
 
