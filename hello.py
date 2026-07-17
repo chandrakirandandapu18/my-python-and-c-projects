@@ -1,3 +1,5 @@
-print("hello")
-print("welcome to the github")
-print("this is my new project section")
+n=int(input(" FORMAL GREETING(1):\n FRIENDLY GREETING(2):\n ENTER A OPTION:"))
+if n==1:
+    print("HELLO SIR")
+else:
+    print("hii")
