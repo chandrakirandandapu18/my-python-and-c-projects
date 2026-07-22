@@ -80,13 +80,13 @@ while True:
 
     print("computer score = ",computer_score)
 
-    if player_score > computer_score :
-        print("you won the game ...!!!!")
+if player_score > computer_score :
+    print("you won the game ...!!!!")
 
-    elif(player_score == computer_score):
-        print("Game ended in a draw!")
+elif(player_score == computer_score):
+    print("Game ended in a draw!")
         
-    else :
-        print("Computer won !")
+else :
+    print("Computer won !")
         
 
