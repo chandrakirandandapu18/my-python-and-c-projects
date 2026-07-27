@@ -1,0 +1,1 @@
+words=random.choices(all_words,5)
