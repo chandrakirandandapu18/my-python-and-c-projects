@@ -1,5 +1,6 @@
 import random
 import time
+import os
 while True:
     guess=[]
     score=0
@@ -21,9 +22,11 @@ while True:
     words=random.sample(all_words,5)
     print("YOUR WORDS ARE :")
     print(words)
+    print("you have 15 seconds to remember ")
+    time.sleep(15)
 
-    time.sleep(5)
-    print("\n"*67)
+    os.system("cls")
+  
 
     for i in range(5):
         word=input(f"Enter {i+1} word : ")
